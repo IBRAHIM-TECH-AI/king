@@ -2,7 +2,7 @@
     "name": "Maria-MD",
     "description": "A WhatsApp bot based on Baileysjs with Multi-Device support",
     "repository": "https://github.com/AYUSH-PANDEY023/Maria-Md",
-    "logo": "https://telegra.ph/file/351133422917a8bd7d776.jpg",
+    "logo": "https://telegra.ph/file/74599869170d374a38ae5.jpg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
       "env": {
        "OWNER_NAME": {
@@ -21,7 +21,7 @@
       "description": "set your bot author name here"
     },
     "STICKER": {
-      "description": "set your bot sticker package name ex:- Ayush"
+      "description": "set your bot sticker package name"
     },
      "id": {
       "description": "Put your session id here"
