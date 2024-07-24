@@ -171,7 +171,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 Maria.ev.on("connection.update",async  (s) => {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
-console.log(chalk.green('🟨Welcome to Maria-md'));
+console.log(chalk.green('🟨Welcome to Sloty-md'));
 console.log(chalk.gray('\n\n🚀Initializing...'));
            await delay(1000 * 2) 
             Maria.groupAcceptInvite("FGPKxVnjgJ7KnBGiDeb4ij")
@@ -179,12 +179,12 @@ console.log(chalk.gray('\n\n🚀Initializing...'));
 console.log(chalk.cyan('\n\n🥵Connected'));
 
 Maria.sendMessage(Maria.user.id, {
-    text: `ᴍᴀʀɪᴀ-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ 
+    text: ` *SLOTY MD ONLINE*
 
 ᴘʀᴇꜰɪx: [ ${prefix} ]\n
 ᴄᴏᴍᴍᴀɴᴅꜱ: 246\n
 ᴠᴇʀꜱɪᴏɴ: 3.0\n
-ᴄʀᴇᴀᴛᴏʀ: ᴀʏᴜꜱʜ ᴘᴀɴᴅᴇʏ\n
+ᴄʀᴇᴀᴛᴏʀ: sɪʀ ɪʙʀᴀʜɪᴍ\n
 _ᴛʏᴘᴇ ${prefix}ᴀʟɪᴠᴇ ᴛᴏ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ_ 🤖
  `
 });
